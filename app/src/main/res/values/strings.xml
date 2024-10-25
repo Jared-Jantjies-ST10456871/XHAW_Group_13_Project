@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">XHAW_Poe</string>
+    <string name="appNameText">Empower The Nation</string>
+    <string name="getStartedButtonText">Get Started</string>
+    <string name="sixWeekFee">R750</string>
+    <string name="sixMonthFee">R1500</string>
+    <string name="sixMonthCourseText">Six Month Courses</string>
+    <string name="sixWeekCourseText">Six Week Courses</string>
+    <string name="firstAidText">FIRST AID</string>
+    <string name="sewingText">SEWING</string>
+    <string name="aboutText">ABOUT US</string>
+    <string name="landscapingText">LANDSCAPING</string>
+    <string name="lifeSkillsText">LIFE SKILLS</string>
+    <string name="childMindingText">CHILD MINDING</string>
+    <string name="gardenMaintenanceText">GARDEN MAINTENANCE</string>
+    <string name="cookingText">COOKING</string>
+    <string name="nextButtonText">Next</string>
+    <string name="backButtonText">Back</string>
+    <string name="learnMoreButtonText">Learn</string>
+    <string name="firstAidPurposeText">Purpose: To provide first aid awareness and basic life support</string>
+    <string name="sewingPurposeText">Purpose: To provide alterations and new garment tailoring services</string>
+    <string name="landscapingPurposeText">Purpose: To provide landscaping services for new and established gardens</string>
+    <string name="lifeSkillsPurposeText">Purpose: To provide skills to navigate basic life necessities</string>
+    <string name="childMindingPurposeText">Purpose: To provide basic child and baby care </string>
+    <string name="gardenMaintenancePurposeText">Purpose: To provide basic knowledge of watering, pruning and planting in a domestic garden.</string>
+    <string name="cookingPurposeText">Purpose: To prepare and cook nutritious family meals</string>
+    <string name="firstAidDescription">• Wounds and bleeding
+• Burns and fractures
+• Emergency scene management
+• Cardio-Pulmonary Resuscitation (CPR)
+• Respiratory distress e.g., Choking, blocked airway</string>
+    <string name="sewingDescription">• Types of stitches
+• Threading a sewing machine
+• Sewing buttons, zips, hems and seams
+• Alterations
+• Designing and sewing new garments
+</string>
+    <string name="landscapingDescription">• Indigenous and exotic plants and trees
+• Fixed structures (fountains, statues, benches, tables, built-in braai)
+• Balancing of plants and trees in a garden
+• Aesthetics of plant shapes and colours
+• Garden layout
+</string>
+    <string name="lifeSkillsDescription">• Opening a bank account
+• Basic labour law (know your rights)
+• Basic reading and writing literacy
+• Basic numeric literac</string>
+    <string name="childMindingDescription">• birth to six-month old baby needs
+• seven-month to one year old needs
+• Toddler needs
+• Educational toys
+</string>
+    <string name="gardenMaintenanceDescription">• Water restrictions and the watering requirements of indigenous and exotic plants
+• Pruning and propagation of plants
+• Planting techniques for different plant types</string>
+    <string name="cookingDescription">• Nutritional requirements for a healthy body
+• Types of protein, carbohydrates and vegetables
+• Planning meals
+• Preparation and cooking of meals</string>
+    <string name="contactInfoText">Contact Info</string>
+    <string name="paymentText">Payment</string>
+    <string name="cellNumberText">Cell No.</string>
+
+    <string name="homeText">Home</string>
+    <string name="sixWeekText">Email</string>
+    <string name="poBoxText">PO Box</string>
+    <string name="telNumberText">Tel No.</string>
+    <string name="totalText">Total</string>
+    <string name="discountText">Discount</string>
+    <string name="totalDiscountText">Total with discount</string>
+    <string name="aboutUsText">About</string>
+    <string name="coursesText">Courses</string>
+    <string name="emailAddress">Email: info@empowethenation.co.za.com</string>
+    <string name="address">Address: 123 Street, Johannesburg, Cape Town 12345</string>
+    <string name="cellNo">Phone: (123) 456-7890</string>
+</resources>
