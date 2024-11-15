@@ -14,12 +14,14 @@
         android:layout_height="173dp"
         android:layout_centerInParent="true"
         android:layout_marginStart="45dp"
+        android:layout_marginTop="13dp"
         android:layout_marginEnd="26dp"
         android:layout_marginBottom="21dp"
         android:background="@drawable/border"
         app:layout_constraintBottom_toTopOf="@+id/backButton5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
 
         <TextView
             android:id="@+id/landscapingDescriptionText"
@@ -38,9 +40,12 @@
         android:layout_marginStart="70dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="70dp"
+        android:layout_marginBottom="3dp"
         android:text="@string/landscapingText"
         android:textColor="@color/black"
         android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/landscapingPurposeText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/homeButton" />
@@ -50,10 +55,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
         android:text="@string/landscapingPurposeText"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/landscapingText" />
@@ -109,13 +116,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
+        android:layout_marginTop="6dp"
         android:layout_marginBottom="21dp"
         android:backgroundTint="@color/orange"
         android:text="@string/backButtonText"
         android:textSize="20sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout4" />
 
     <ImageView
         android:id="@+id/imageView4"

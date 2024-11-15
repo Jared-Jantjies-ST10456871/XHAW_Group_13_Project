@@ -15,12 +15,14 @@
         android:layout_height="173dp"
         android:layout_centerInParent="true"
         android:layout_marginStart="60dp"
+        android:layout_marginTop="13dp"
         android:layout_marginEnd="61dp"
         android:layout_marginBottom="22dp"
         android:background="@drawable/border"
         app:layout_constraintBottom_toTopOf="@+id/backButton6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <TextView
             android:id="@+id/lifeSkillsDescriptionText"
@@ -45,9 +47,12 @@
         android:layout_marginStart="98dp"
         android:layout_marginTop="51dp"
         android:layout_marginEnd="99dp"
+        android:layout_marginBottom="1dp"
         android:text="@string/lifeSkillsText"
         android:textColor="@color/black"
         android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lifeSkillsPurposeText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aboutUsButton" />
@@ -57,10 +62,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
+        android:layout_marginBottom="3dp"
         android:text="@string/lifeSkillsPurposeText"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lifeSkillsText" />
@@ -116,13 +123,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
+        android:layout_marginTop="14dp"
         android:layout_marginBottom="31dp"
         android:backgroundTint="@color/orange"
         android:text="@string/backButtonText"
         android:textSize="20sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
     <ImageView
         android:id="@+id/imageView"

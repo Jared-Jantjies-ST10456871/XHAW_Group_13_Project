@@ -13,12 +13,14 @@
         android:layout_height="173dp"
         android:layout_centerInParent="true"
         android:layout_marginStart="60dp"
+        android:layout_marginTop="14dp"
         android:layout_marginEnd="61dp"
         android:layout_marginBottom="35dp"
         android:background="@drawable/border"
         app:layout_constraintBottom_toTopOf="@+id/backButton7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
 
         <TextView
             android:id="@+id/cookingDescriptionText"
@@ -38,9 +40,12 @@
         android:layout_marginStart="119dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="119dp"
+        android:layout_marginBottom="3dp"
         android:text="@string/cookingText"
         android:textColor="@color/black"
         android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cookingPurposeText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aboutUsButton" />
@@ -51,10 +56,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="14dp"
         android:text="@string/cookingPurposeText"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cookingText" />
@@ -110,13 +117,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="19dp"
         android:layout_marginBottom="35dp"
         android:backgroundTint="@color/orange"
         android:text="@string/backButtonText"
         android:textSize="20sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
 
     <ImageView
         android:id="@+id/imageView5"

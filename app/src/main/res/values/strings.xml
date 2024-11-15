@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">XHAW_Poe</string>
     <string name="appNameText">Empower The Nation</string>
     <string name="getStartedButtonText">Get Started</string>
@@ -71,6 +71,15 @@
     <string name="aboutUsText">About</string>
     <string name="coursesText">Courses</string>
     <string name="emailAddress">Email: info@empowethenation.co.za.com</string>
-    <string name="address">Address: 123 Street, Johannesburg, Cape Town 12345</string>
+    <string name="address">Address: Northern Pkwy and Dta Cres, Johannesburg, 2159, South Africa</string>
+    <string name="address2">Address: S Beach Rd, uMhlanaga, 4350</string>
+    <string name="address3">Address: The Quadrant, 146 Campground Rd, Newlands, Cape Town, 7708</string>
     <string name="cellNo">Phone: (123) 456-7890</string>
+    <string name="aboutUsDescription">Empower The Nation is a Johannesburg-based SME that was established in 2018.
+        We are dedicated to offering essential skills development courses to help individuals grow in their personal and professional lives.
+        Our goal is to provide comprehensive, hands-on learning experiences in various fields, ensuring that our learners are equipped with the practical knowledge and confidence to succeed.</string>
+    <string name="visionDescription">Vision: To empower individuals with practical skills that promote independence, career growth, and community development.
+        We strive to create a society where everyone has access to the tools and knowledge needed to thrive.</string>
+    <string name="missionDescription">Vision: To empower individuals with practical skills that promote independence, career growth, and community development.
+        We strive to create a society where everyone has access to the tools and knowledge needed to thrive.</string>
 </resources>
